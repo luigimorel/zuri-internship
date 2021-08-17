@@ -1,7 +1,7 @@
-package printName
+package luigi
 
 import "fmt"
 
-func myName() {
+func LuigiMorel() {
 	fmt.Println("Luigi Morel")
 }

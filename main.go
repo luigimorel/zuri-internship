@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"github.com/morelmiles/zuri-internship/compulsory-task/printName"
+	"github.com/morelmiles/zuri-internship/luigi"
 )
 
 func main() {
-	fmt.Println("Main package")
-	printName.myName()
+luigi.LuigiMorel()
 }
