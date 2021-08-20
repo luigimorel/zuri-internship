@@ -1,4 +1,5 @@
-{{define "header"}}
+{{define "email "}}
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -14,4 +15,13 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/static/styles.css" rel="stylesheet" />
 </head>
+<body>
+<p class="lead text-center">Here is the message from a visitor</p>
+{{ .FirstName}}
+{{ .SecondName}}
+{{ .Email}}
+{{ .Reason}}
+{{.Message}}
+</body>
+</html>
 {{end}}
